@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa : Rachit</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!--Sub Header-->
+  <div class="subheader unipadding">
+        <div class="subheader_add">
+            <div class="add"><i class="bi bi-envelope-fill"></i>
+                <p>info@company.com</p>
+            </div>
+            |
+            <div class="add"><i class="bi bi-map-fill"></i>
+                <p>Sunny Isles Beach, FL 33160</p>
+            </div>
+        </div>
+        <div class="social_icon">
+                <span class="icon"><i class="bi bi-facebook"></i></span>
+                <span class="icon"><i class="bi bi-twitter"></i></span>
+                <span class="icon"><i class="bi bi-linkedin"></i></span>
+                <span class="icon"><i class="bi bi-instagram"></i></span>
+        </div>
+    </div>
+    <hr>
+
+    <!--Header-->
+    <header>
+        <div class="header unipadding">
+            <h3>VILLA</h3>
+            <nav>
+                    <ul>
+                        <li> <a href="">Home</a></li>
+                        <li> <a href="">Properties</a></li>
+                        <li> <a href="">Property Details</a></li>
+                        <li> <a href="">Contact Us</a></li>
+                        <span> <p>Schedule a visit</p></span>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--Slider-->
+
+<div class="slider ">
+
+
+	<span class="btn-arrow" id="left-btn" onclick="conrtoler(-1)" >&lt;</span>
+    <span class="btn-arrow" id="right-btn" onclick="conrtoler(1)">&gt;</span>
+    
+    <div class="slide-1 slides unipadding">
+        <div class="slider-text">
+            <span><p>Melbourne, Australia</p></span>
+            <h2>Be Quick! <br>
+                Get the best villa in town</h2>
+        </div>
+    </div>
+
+    <div class="slide-2 slides unipadding">
+        <div class="slider-text">
+            <span><p>Miami, South Florida</p></span>
+            <h2>Act Now! <br>
+                Get the highest level penthouse</h2>
+        </div>
+    </div>
+
+    <div class="slide-3 slides unipadding">
+        <div class="slider-text">
+            <span><p>Toronto, Canada</p></span>
+            <h2>Hurry! <br>
+                Get the Best Villa for you</h2>
+        </div>
+    </div>
+</div>
+
+
+<!--Feature-->
+<div class="feature unimargin">
+    <div class="unipadding feature-c">
+        <div class="feature_image">
+            <img src="/images/featured.jpg" alt="feature image">
+            <div><img src="/images//featured-icon.png" alt="" srcset=""></div>
+        </div>
+        <div class="feature-content">
+            <h3>| FEATURED</h3>
+            <h2>Best Appartment <br> & Sea View</h2>
+            <div class="carasol">
+                <div class="upper" onclick="display()">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="inner">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque sit omnis modi suscipit hic repellendus quaerat optio debitis ipsam cupiditate?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
